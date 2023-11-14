@@ -1,5 +1,5 @@
 function Avtar({ name, src, rounded, age, address, hobbies }) {
-  console.log(age, address, hobbies);
+  // console.log(age, address, hobbies);
   const styles = {
     borderRadius: rounded ? "50%" : "16px",
   };

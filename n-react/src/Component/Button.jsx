@@ -1,5 +1,5 @@
 function Button({ color, text, handleClick }) {
-  console.log();
+  // console.log();
   return (
     <button onClick={handleClick} style={{ color: color }}>
       {text}
