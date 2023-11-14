@@ -1,6 +1,7 @@
-function Button({ color, text }) {
+function Button({ color, text, handleClick }) {
+  console.log();
   return (
-    <button button style={{ color: color }}>
+    <button onClick={handleClick} style={{ color: color }}>
       {text}
     </button>
   );
