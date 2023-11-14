@@ -13,8 +13,8 @@ function App() {
      <Button text = "Press me I am a Button" color = "blue"/>
      {/* <button>Click Me</button> */}
      <h5>{ a? "Verified-user":"User not Verified"}</h5>
-      <Avtar />
-      <h1>Alok rai</h1>
+      <Avtar name="Alok Rai" src="https://avatars.githubusercontent.com/u/112754692?v=4"/>
+      <Avtar name="Jack Bereson" src="https://avatars.githubusercontent.com/u/18569187?v=4"/>
     </div>
     
   );
